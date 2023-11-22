@@ -1,0 +1,183 @@
+/* Global CSS start*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background: grey;
+}
+
+/* Global CSS end*/
+
+/* z index section start */
+.index{
+    background: aqua;
+    padding: 30px;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.title{
+    justify-content: center;
+    display: flex;
+}
+.parent{
+    width: 400px;
+    height: 350px;
+    background: darkblue;
+    margin: auto;
+    position: relative;
+
+}
+
+
+.child{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+}
+.child1{
+   background: #333;
+left: 40px;
+top: 40px;
+z-index: 2;
+}
+.child2{
+background: white;
+left: 70px;
+top: 70px;
+z-index: 3;
+}
+.child3{
+    background: red;
+    left: 10px;
+    top: 10px;
+}
+.child4{
+    background: green;
+    left: 100px;
+    top: 100px;
+    z-index: 4;
+}
+/* z index section end */
+
+/* position section start */
+
+.position{
+    background: aqua;
+    padding: 30px;
+}
+.position .container{
+    width: 1140px;
+    margin: auto;
+}
+.position .title{
+    justify-content: center;
+    display: flex;
+}
+.position .parent{
+    width: 400px;
+    height: 240px;
+    background: green;
+    margin: auto;
+    position: relative;
+
+}
+
+
+.position .child{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    left: 150px;
+    top: 65px;
+}
+.position .child1{
+   background: red;
+}
+
+/* position section end */
+/* header section start */
+.f_form{
+    width: 100%;
+    padding: 80px 0;
+}
+.main {
+    background: #fff;
+    width: 48%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+}
+.f_img {
+    margin-right: 20px;
+}
+.f_img img{
+    width: 364px;
+    height: 477px;
+}
+.f_form{
+    margin-left: 20px;
+}
+.f_form h2{
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.f_form input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    padding: 5px 0;
+    margin: 15px 0;
+}
+
+.f_form .name input{
+    width: 48%;
+    border: none;
+    border-bottom: 1px solid #000;
+    padding: 5px 0;
+    margin: 12px 0;
+}
+.f_form .name .f_name{
+    margin-right: 7px;
+}
+.f_form input::placeholder{
+    font-family: 'Poppins', sans-serif;
+}
+.f_form input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+.f_form select{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    padding: 5px 0;
+    margin: 12px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.f_form select{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+.f_form .btn{
+    padding-top: 30px;
+}
+.f_form .btn button{
+    background: #333;
+    color: #fff;
+    padding: 12px 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+/* footer section end */
